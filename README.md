@@ -17,13 +17,13 @@ $ pip install pika
 
 В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.
 
-![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/003.png)
-
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/002.png)
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/003.png)
 
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/004.png)
 
-![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/005.png)
+
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
@@ -40,7 +40,8 @@ $ cat /etc/hosts
 Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
-![alt text]()
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/005.png)
 Также приложите вывод команды с двух нод:
 
 $ rabbitmqctl cluster_status
