@@ -21,6 +21,10 @@ $ pip install pika
 
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/003.png)
 
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/004.png)
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/005.png)
+
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 #### Задание 3. Подготовка HA кластера
