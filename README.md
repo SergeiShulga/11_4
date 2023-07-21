@@ -17,9 +17,9 @@ $ pip install pika
 
 В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.
 
-![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/002.png)
-
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/003.png)
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/002.png)
 
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/004.png)
 
