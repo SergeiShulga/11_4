@@ -21,7 +21,7 @@ $ pip install pika
 
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/003.png)
 
-![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/004.png)
+
 
 
 
@@ -41,18 +41,27 @@ $ cat /etc/hosts
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/004.png)
+
 ![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/005.png)
 Также приложите вывод команды с двух нод:
 
 $ rabbitmqctl cluster_status
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/006.png)
+
 $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
-![alt text]()
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/007.png)
+
+![alt text](https://github.com/SergeiShulga/11_4/blob/main/img/008.png)
 Дополнительные задания (со звёздочкой*)
+
+
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
 
 * Задание 4. Ansible playbook
